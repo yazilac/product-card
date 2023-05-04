@@ -1,0 +1,132 @@
+
+body{
+  background-color:  hsl(30, 38%, 92%);
+}
+.attribution { 
+  font-size: 11px;
+  text-align: center; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+.card-parent{
+  display: flex;
+  position: relative;
+  top: 80px;
+  left: 30px;
+  margin: auto;
+  width: 550px;
+  height: 24em;
+  border-radius: 10px;
+  background-color: white;
+}
+.card-imagen{
+  width: 50%;
+  height: 100%;
+}
+.card-contenido{
+  display: inline-block;
+  width: 100%;
+  margin-left: 20px;
+  height: 100%;
+}
+.img{
+  max-width: 300px;
+  height: 385px;
+  border-radius: 5px;
+}
+.card-encabezado{
+  margin-top: 20px;
+}
+.encabezado{
+  top: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color:rgb(196, 189, 189);
+}
+.card-titulo{
+  width: 80%;
+  margin-top: 12px ;
+}
+.titulo{
+  color: black;
+  font-style:inherit;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: justify;
+  line-height: 1;
+}
+.card-descripcion{
+  width: 210px;
+}
+.descripcion{
+  text-align:start;
+  font-size: 14px;
+  color:rgb(128, 128, 128);
+}
+.card-precio{
+  width: 200px;
+}
+.card-boton{
+  margin: 25px 0;
+}
+.boton{
+  padding: 10px;
+  text-align: center;
+  width: 220px;
+  background: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.precio-1{
+  font-size: 30px;
+  font-weight: 800;
+  color: hsl(158, 36%, 37%);
+}
+.precio-2{
+  padding: 0 15px ;
+  font-size: 10px;
+  text-decoration:line-through;
+  color:rgb(128, 128, 128);
+}
+button img{
+  margin-right: 10px;
+}
+@media screen and (max-width: 375px) {
+  .card-parent{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .card-imagen img {
+    content: url("images/image-product-mobile.jpg");
+    height: 100%;
+  }
+  .card-titulo{
+  width: 80%;
+  margin-top: 12px ;
+  display: inline-block;
+}
+.titulo{
+  font-size: 30px;
+  font-weight: 800;
+  text-align: justify;
+}
+.card-descripcion{
+  width: 250px;
+}
+.descripcion{
+  text-align:left;
+  font-size: 15px;
+}
+.boton{
+  width: 250px;
+}
+.card-encabezado{
+  margin-top: 10px;
+}
+}
